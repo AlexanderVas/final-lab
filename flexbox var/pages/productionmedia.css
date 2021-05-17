@@ -1,0 +1,44 @@
+@media all and (max-width: 1200px) {
+    .container header {
+        justify-content: center;
+    }
+
+    header img {
+        display: none !important;
+    }
+
+    .gooda:nth-last-child(2){
+        display: none !important;
+    }
+}
+
+
+@media all and (max-width: 900px){
+    .gooda:nth-last-child(3){
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 688px) {
+    .gooda:nth-last-child(4){
+        display: none !important;
+    }
+
+    .backblock,footer>p {
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 500px){
+    .gooda:nth-last-child(5){
+        display: none !important;
+    }
+}
+@media all and (max-width: 400px){
+    .goodswrapper #arrows{
+        margin:0;
+    }
+    #list{
+        display: none!important;
+    }
+}
